@@ -1,1 +1,42 @@
+# macOS system files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+~*
+
+# Log files
+*.log
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node modules (if any)
+node_modules/
+
+# Python cache (if any)
+__pycache__/
+*.pyc
+*.pyo
+
+# OS generated files
+Icon?
+
+# Large Office files (now tracked with Git LFS)
+*.xlsx
+*.docx
+
+# PDFs and PowerPoint files are tracked with Git LFS
+# *.pdf and *.pptx are now handled by LFS
+# *.md files are explicitly wanted
